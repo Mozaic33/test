@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: intTests.IntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 47.345 sec <<< FAILURE! - in intTests.IntegrationTest
+TestTitle1 on TestTitle1(intTests.IntegrationTest)(intTests.IntegrationTest)  Time elapsed: 46.876 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at intTests.IntegrationTest.TestTitle1(IntegrationTest.java:22)
+
