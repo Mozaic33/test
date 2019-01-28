@@ -1,4 +1,3 @@
-/ import javaposse.jobdsl.plugin.GlobalJobDslSecurityConfiguration
 import jenkins.model.GlobalConfiguration
 
 node {
@@ -17,7 +16,7 @@ node {
 		}
 		// mvn integration-test
 		stage('Package') {
-		       sh "mvn package"
+		       sh "mvn install"
 		}
 		stage('Start Tomcat')
 		{
@@ -27,5 +26,5 @@ node {
 		{
 		      sh "mvn integration-test"
 		}
-		}
-		}
+	}
+}
