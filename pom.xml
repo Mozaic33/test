@@ -186,18 +186,18 @@
     <repositories>
       <repository>
         <id>maven-group</id>
-        <url>http://localhost:8081/repository/maven-public/</url>
+        <url>http://localhost:8081/#browse/browse:maven-public/</url>
       </repository>
     </repositories>
 
     <distributionManagement>
      <snapshotRepository>
        <id>nexus-snapshots</id>
-       <url>http://localhost:8081/repository/maven-snapshots/</url>
+       <url>http://localhost:8081/#browse/browse:maven-snapshots/</url>
      </snapshotRepository>
      <repository>
        <id>nexus-releases</id>
-       <url>http://localhost:8081/repository/maven-releases/</url>
+       <url>http://localhost:8081/#browse/browse:maven-releases/</url>
      </repository>
     </distributionManagement>
    
