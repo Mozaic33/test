@@ -18,10 +18,6 @@ node {
 		stage('Package') {
 		       sh "mvn install"
 		}
-		stage('Start Tomcat')
-		{
-		      sh "sudo cp /var/lib/jenkins/jobs/nexus/MyWorkspace/target/AMGrads.war /usr/share/tomcat/webapps && sudo service tomcat restart"
-		}
 		stage('Test')
 		{
 		      sh "mvn integration-test"
