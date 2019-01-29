@@ -16,7 +16,7 @@ node {
 		}
 		// mvn integration-test
 		stage('Package') {
-		       sh "mvn install"
+		       sh "mvn deploy"
 		}
 		stage('Test')
 		{
