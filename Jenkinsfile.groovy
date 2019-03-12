@@ -20,7 +20,7 @@ node {
 			     }
 		}
 		
-		stage ('test") {
+		stage ('test') {
                        echo "merge pana la final"
 		       }
 		       // mvn integration-test
