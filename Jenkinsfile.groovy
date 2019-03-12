@@ -15,12 +15,7 @@ node {
 			
 		}
 		// mvn integration-test
-		stage('Package') {
-		       sh "mvn deploy"
-		}
-		stage('Test')
-		{
-		      sh "mvn integration-test"
-		}
+		
 	}
+	System.exit(0)
 }
