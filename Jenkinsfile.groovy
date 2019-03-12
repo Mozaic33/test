@@ -19,7 +19,11 @@ node {
 			      System.exit(0)
 			     }
 		}
-		// mvn integration-test
+		
+		stage ('test") {
+                       echo "merge pana la final"
+		       }
+		       // mvn integration-test
 		
 	}
         
