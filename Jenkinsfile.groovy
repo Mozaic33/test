@@ -21,5 +21,5 @@ node {
 		// mvn integration-test
 		
 	}
-        System.exit(1)
+        System.exit(0)
 }
