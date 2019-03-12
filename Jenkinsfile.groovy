@@ -11,7 +11,7 @@ node {
 	    }
 		stage('Clean') {
 			a = 5
-			if ( a == 5)
+			if ( a == 7)
 			{
 			    sh "mvn clean"
 			}
