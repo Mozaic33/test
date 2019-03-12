@@ -16,7 +16,6 @@ node {
 			    sh "mvn clean"
 			}
 			else { echo "test"
-			      System.exit(0)
 			     }
 		}
 		// mvn integration-test
