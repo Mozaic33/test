@@ -10,12 +10,17 @@ node {
 		    
 	    }
 		stage('Clean') {
-		
+			a = 5
+			if ( a == 5)
+			{
 			    sh "mvn clean"
-			
+			}
+			else { echo "test"
+			      System.exit(0)
+			     }
 		}
 		// mvn integration-test
 		
 	}
-	System.exit(0)
+
 }
